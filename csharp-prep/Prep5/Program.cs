@@ -43,6 +43,6 @@ class Program
 
     static void DisplayResult(string userName, int squaredNumber)
     {
-        Console.WriteLine($"{userName}, the square of your number is {squaredNumber}");
+        Console.WriteLine($"{userName}, the  square of your number is {squaredNumber}");
     }
 }

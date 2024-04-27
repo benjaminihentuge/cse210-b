@@ -60,7 +60,7 @@ class Program
         }
         else
         {
-            Console.WriteLine("No positive numbers were entered.");
+            Console.WriteLine("No positive  numbers were entered.");
         }
 
         

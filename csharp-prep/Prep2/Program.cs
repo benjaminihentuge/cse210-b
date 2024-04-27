@@ -39,7 +39,7 @@ class Program
             {
                 score = "-";
             }
-            Console.Write($"You got a {letter}{score} Congratulations you passed the class");
+            Console.Write($"You got a {letter}{score}  Congratulations you passed the class");
         }
         
         else if (gradePercentage >= 70)

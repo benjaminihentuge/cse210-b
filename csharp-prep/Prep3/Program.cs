@@ -28,6 +28,6 @@ class Program
         }
 
         Console.WriteLine("You guessed it!");
-        Console.WriteLine($"It took you {counts} attempts.");
+        Console.WriteLine($"It took you {counts}  attempts.");
     }
 }
