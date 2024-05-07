@@ -17,7 +17,7 @@ class Program
             switch (choice)
             {
                 case 1:
-                string prompt = userInterface.GetUserPrompt();
+                string prompt  = userInterface.GetUserPrompt();
                 Console.WriteLine($"Prompt: {prompt}"); 
                 string response = userInterface.GetUserResponse();
                 string date = DateTime.Now.ToString();

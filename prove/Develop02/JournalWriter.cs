@@ -5,7 +5,7 @@ public class JournalWriter
         
     }
 
-    public void LoadJournalFromFile(Journal journal, string filename)
+    public void LoadJournalFromFile(Journal  journal, string filename)
     {
         
     }

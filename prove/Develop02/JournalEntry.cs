@@ -7,7 +7,7 @@ public class JournalEntry
     public JournalEntry(string prompt, string response, string date)
     {
         Prompt = prompt;
-        Response = response;
+        Response =  response;
         Date = date;
     }
 } 

@@ -1,6 +1,6 @@
 public class UserInterface
 {
-    private List<string> prompts = new List<string>
+    private List<string>  prompts = new List<string>
     {
         "Who was the most interesting person I interacted with today?",
         "What was the best part of my day?",

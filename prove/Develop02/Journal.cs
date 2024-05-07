@@ -16,7 +16,7 @@ public class Journal
     {
         foreach (var entry in entries)
         {
-            Console.WriteLine($"Date: {entry.Date}");
+            Console.WriteLine($"Date:  {entry.Date}");
             Console.WriteLine($"Prompt: {entry.Prompt}");
             Console.WriteLine($"Response: {entry.Response}");
             Console.WriteLine();
