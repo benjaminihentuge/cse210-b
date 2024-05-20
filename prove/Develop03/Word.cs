@@ -11,7 +11,7 @@ class Word
 
     public void Hide()
     {
-        _isHidden = true;
+        _isHidden =  true;
     }
 
     public void Show()

@@ -19,7 +19,7 @@ class Program
             Console.WriteLine("Press Enter to continue or type 'quit' to exit.");
             string userInput = Console.ReadLine();
 
-            if (userInput.ToLower() == "quit")
+            if (userInput.ToLower() ==  "quit")
             {
                 Console.WriteLine("Exiting program. Goodbye!");
                 return;

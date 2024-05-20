@@ -13,7 +13,7 @@ class Reference
     if (parts.Length >= 4)
     {
         _book = parts[0];
-        _chapter = int.Parse(parts[1]);
+        _chapter  = int.Parse(parts[1]);
         _verseStart = int.Parse(parts[2]);
         _verseEnd = int.Parse(parts[3]);
     }

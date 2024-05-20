@@ -10,7 +10,7 @@ class Scripture
     public Scripture(string referenceText, string text)
     {
         _reference = new Reference(referenceText);
-        _words = text.Split(' ').Select(word => new Word(word)).ToList();
+        _words  = text.Split(' ').Select(word => new Word(word)).ToList();
     }
 
     public void Display()
