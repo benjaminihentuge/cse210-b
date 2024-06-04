@@ -1,0 +1,30 @@
+public class EternalGoal : Goal
+{
+    private int timesCompleted;
+
+    public EternalGoal(string name, int points) : base(name, points)
+    {
+        timesCompleted = 0;
+    }
+
+    public override void RecordEvent()
+    {
+        timesCompleted++;
+        Console.WriteLine($"Goal '{Name}' recorded! You earned {Points} points.");
+    }
+
+    public override string GetProgress()
+    {
+        return $"[{timesCompleted}]";
+    }
+
+    public override bool IsCompleted()
+    {
+        return false;
+    }
+
+    public override string SaveString()
+    {
+        return $"EternalGoal:{Name},{Points},{timesCompleted}";
+    }
+}
